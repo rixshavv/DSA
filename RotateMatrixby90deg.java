@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Solution {
+public class RotateMatrixby90deg {
 
     public void rotate(int[][] matrix) {
         int N = matrix.length;
@@ -39,7 +39,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        RotateMatrixby90deg sol = new RotateMatrixby90deg();
 
         int[][] matrix = {
             {1, 2, 3},
