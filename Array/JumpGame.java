@@ -1,6 +1,5 @@
 class JumpGame {
     public boolean canJump(int[] nums) {
-        int arr_size=nums.length;
         int maxreach=0;
         for(int i=0;i<nums.length;i++){
             if(i>maxreach){
